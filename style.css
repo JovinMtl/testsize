@@ -1,0 +1,29 @@
+
+/* html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+html {
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-color: aqua;
+    /* justify-content: center;- */
+}
+
+.one {
+    width: 375px;
+    height: 99%;
+    background-color: blueviolet;
+    position: absolute;
+    left: 50%;
+    /* top: 3%; */
+    bottom: -49%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    /* border-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
